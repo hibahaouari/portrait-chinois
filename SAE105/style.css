@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+
+
+.infobulle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #900;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  top: 5vh;
+  right: 3vw;
+  z-index: 1;
+  box-shadow: 0 0 22px #00000099;
+}
+
+.infobulle .info {
+  visibility: hidden;
+  width: 424px;
+  height: 50vh;
+  min-height: 360px;
+  border-radius: 10px;
+  background-color:#900;
+  color: #fff;
+  text-align: center;
+  padding: 2vh;
+  position: absolute;
+  top: 3.5vh;
+  right: 1.6vw;
+  z-index: 2;
+}
+
+.infobulle:hover .info {
+  visibility: visible;
+  z-index: 1;
+}
+
+.infobulle p {
+  text-align: justify;
+  font-size: 0.7em;
+}
+
+.infobulle h2 {
+  font-size: 1em;
+}
+
+
+
+
+
+ /* mise en forme de la fleche */
+.fleche {
+  height: 15vh;
+  transition: 0.5s;
+  position: absolute;
+}
+
+/* placer la fleche au millieu */
+.fleche {
+  bottom: 0;  
+  left: 50%;  
+  transform: translate(-50%, 0);  
+}
+ /* rendre la fleche transparente */
+.fleche:hover {
+  opacity: 50%;
+}
+
+
+/*Mise en page des titres de ma page d'entrée*/
+
+.titres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 50vh;
+  color: rgb(137, 15, 15);
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 1em;
+}
+
+.titres h1,
+h2 {
+  margin-top: -1vh;
+}
+
+#titree{
+  font-family:'Engagement', cursive; 
+  font-size: 5em;
+}
+.header {
+  height: 100vh;
+  display: flex;
+  background-image: url("/image/back.png");
+  background-color: antiquewhite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  
+}
+section {
+  background-color: antiquewhite;
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  margin: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+#divim{
+  justify-content: center;
+  align-items: center;
+}
+
+.columnleft {
+  width: 50%;
+  float: left;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.columnright {
+  width: 50%;
+  float: right;
+  margin-top: 100px;
+  margin-left: 50px;
+  border-radius: 20px;
+
+}
+h1{
+  font-family: 'Engagement', cursive; 
+  font-size: 4em;
+  font-style: italic;
+  color: rgb(148, 27, 27);
+
+}
+
+
+p{
+  margin: 20px;
+  padding: 20px;
+  font-family:hand ;
+  font-size: larger;
+  background-color: rgba(170, 170, 170, 0.167);
+  border-radius: 25px;
+  
+}
+#ima{
+height: 650px;
+
+}
+
+form {
+    font-family: 'Lexend Deca', sans-serif;    
+    padding: 2.5rem;
+    border-radius: 10px;
+    width: 33%;
+    max-width: 100vh;
+
+}
+#image{
+  justify-content: center;
+  
+}
+label {
+    font : .8em "typewriter", sans-serif;
+  }
+input, textarea {
+    font    : .9em/1.5em "handwriting", sans-serif;
+    border-radius: 5px;
+    padding : 0 10px;
+    margin  : 0;
+    width   : 240px;
+  
+    background: none;
+  }
+
+
+  input:focus, textarea:focus {
+    background   : rgba(0,0,0,.1);
+    border-radius: 5px;
+    outline      : none;
+  }
+  textarea  {
+    display : block;
+  
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 340px;
+    height  : 240px;
+  
+    resize  : none;
+    overflow: auto;
+  }
+ 
+  button {
+    top          : 360px;  
+    font         : bold .6em sans-serif;
+    border       : 2px solid #333;
+    border-radius: 5px;
+    background   : none;
+    cursor       : pointer;
+  
+ 
+  }
+
+  input:invalid {
+    border-color: #900;
+    background-color: rgba(255, 221, 221, 0);
+}
+
+input:focus:invalid {
+    outline: none;
+}
+/* Masquer le modal par défaut */
+#modal {
+    display: none;
+  }
+
+  /* Style du modal */
+  #modal-content {
+    max-width: 96%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+  }
+  #close-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+
+  
