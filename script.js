@@ -62,7 +62,7 @@ var sec = document.createElement('section');
     
     ima=document.createElement('img');
     ima.setAttribute('id',"ima")
-    ima.src = '/image/'+test.image;
+    ima.src = 'image/'+test.image;
     
 
 
